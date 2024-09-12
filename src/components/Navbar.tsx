@@ -34,7 +34,7 @@ function Navbar() {
       {/* Mobile Navbar */}
       <motion.div
         {...fadeInFromTop}
-        className="flex md:hidden flex-row gap-4 items-center justify-between fixed top-0 left-0 w-full z-50 backdrop-blur-lg py-6 px-6 md:px-10"
+        className="flex md:hidden flex-row gap-4 items-center justify-between fixed top-0 left-0 w-full z-50 backdrop-blur-lg py-6 px-6 md:px-10 text-white"
       >
         <Image
           src="/images/logo/logo-gray.webp"

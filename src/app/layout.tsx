@@ -69,7 +69,9 @@ export default function RootLayout({
       lang="en"
       className={`${albertSans.variable} ${helvetica.variable} bg-black text-white`}
     >
-      <body className="font-helvetica font-medium bg-black">{children}</body>
+      <body className="font-helvetica font-medium bg-black text-white">
+        {children}
+      </body>
     </html>
   );
 }

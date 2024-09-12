@@ -9,7 +9,7 @@ import { ScrollProvider } from "@/contexts/ScrollContext";
 export default function Home() {
   return (
     <ScrollProvider>
-      <div className="flex flex-col items-center justify-center min-h-screen w-screen">
+      <div className="flex flex-col items-center justify-center min-h-screen w-screen text-white">
         <Navbar />
         <Hero />
         <About />

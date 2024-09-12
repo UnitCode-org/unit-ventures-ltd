@@ -20,7 +20,7 @@ const About: React.FC = () => {
   return (
     <section
       ref={aboutRef}
-      className="flex flex-col justify-center items-center min-h-screen w-full max-w-screen-2xl bg-black mt-12"
+      className="flex flex-col justify-center items-center min-h-screen w-full max-w-screen-2xl bg-black text-white mt-12"
     >
       {/* what we do */}
       <div className="grid grid-cols-1 md:grid-cols-3 w-full px-6 md:px-10">

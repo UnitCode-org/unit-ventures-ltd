@@ -10,7 +10,7 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex justify-center items-center w-full max-w-screen-2xl px-6 md:px-10 bg-black">
+    <footer className="flex justify-center items-center w-full max-w-screen-2xl px-6 md:px-10 bg-black text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 w-full">
         <div className="col-span-1 md:border-r border-neutral-500 flex justify-center md:justify-start">
           <div className="md:w-80">

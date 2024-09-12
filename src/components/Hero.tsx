@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
   return (
     <section
       ref={heroRef}
-      className="flex justify-center items-center min-h-screen w-full max-w-screen-2xl bg-black"
+      className="flex justify-center items-center min-h-screen w-full max-w-screen-2xl bg-black text-white"
     >
       <motion.div
         className={`flex flex-col items-center`}
