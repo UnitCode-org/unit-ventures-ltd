@@ -12,6 +12,11 @@ const albertSans = Albert_Sans({
 const helvetica = localFont({
   src: [
     {
+      path: "../../public/fonts/HelveticaNeueRoman.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
       path: "../../public/fonts/HelveticaNeueMedium.otf",
       weight: "500",
       style: "normal",
